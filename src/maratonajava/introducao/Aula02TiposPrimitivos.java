@@ -13,9 +13,10 @@ public class Aula02TiposPrimitivos {
         short idadeShort = 10; // 2 bytes
         boolean verdadeiro = true; // 1 bit
         boolean falso = false; // 1 bit
-        char caractere = 'M';  // 2 bytes; traduz para tabela ASCII; unicode: '\u0041'
+        char caractere = 85;  // 2 bytes; traduz para tabela ASCII; unicode: '\u0041'
 
         System.out.println("A idade é " + idade);
+        System.out.println("o caractere é: " + caractere);
 
     }
 }
