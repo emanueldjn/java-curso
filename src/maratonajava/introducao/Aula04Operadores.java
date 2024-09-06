@@ -45,6 +45,20 @@ public class Aula04Operadores {
         // fazer um sistema para add um valor de 1000 reais ao bonus
         double bonus = 1800;
         bonus += 1000;
-        bonus -= 800;System.out.println(bonus);
+        bonus -= 800;
+        bonus *= 2;
+        System.out.println(bonus);
+
+        // incremento ++ --
+        int contador = 0;
+        contador += 1; // contador = contador + 1
+        contador++;
+        contador--;
+        ++contador; // primeiro incrementar e depois executar
+        --contador;
+
+        int contador2 = 0;
+        System.out.println(contador2++);
+        System.out.println(contador2);
     }
 }
